@@ -1,4 +1,4 @@
-const charatters = "abcdefghijklmnpqrstuwxyzABCDEFGHIJKLMNOPQRSTUWXYZ1234567890"
+const charatters = "abcdefghijklmnpqrstuwxyzABCDEFGHIJKLMNOPQRSTUWXYZ1234567890!@#$%^&*.()"
 
 function generarateRandomPassword(length) {
     let password = ""
@@ -10,4 +10,4 @@ function generarateRandomPassword(length) {
     return password
 }
 
-console.log(generarateRandomPassword(32))
+console.log(generarateRandomPassword(20))
